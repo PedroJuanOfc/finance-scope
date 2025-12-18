@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# ChromaDB / Vector Storage
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Data Files
+data/uploaded/
+data/extracted/
+data/temp/
+*.pdf
+*.csv
+*.xlsx
+*.xls
+
+# Keep sample data structure but ignore files
+!data/sample_reports/.gitkeep
+data/sample_reports/*
+!data/sample_reports/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
